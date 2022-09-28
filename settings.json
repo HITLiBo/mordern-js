@@ -1,0 +1,67 @@
+{
+  //终端设置
+  "terminal.integrated.profiles.windows": {
+    "PowerShell -NoProfile": {
+      "source": "PowerShell",
+      "args": ["-NoProfile"]
+    },
+    "Git-Bash": {
+      "path": "D:\\Git\\bin\\bash.exe",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git-Bash",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  //保存设置
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {},
+
+  // 字体配置
+  "editor.fontFamily": "Fira Code", //后边的引号中写上要设置的字体类型，个⼈⽐较喜欢Fira Code
+  "editor.fontLigatures": true, //这个控制是否启⽤字体连字，true启⽤，false不启⽤，这⾥选择启⽤
+  "editor.fontSize": 16, //设置字体⼤⼩，这个不多说都明⽩
+  "editor.fontWeight": "normal",
+  "volar.autoCompleteRefs": true,
+  "volar.codeLens.pugTools": true,
+  "volar.codeLens.scriptSetupTools": true,
+
+  //文件隐藏
+  "files.exclude": {
+    "**/.git": false,
+    "$RECYCLE.BIN": true,
+    "System Volume Information": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true
+}
